@@ -61,7 +61,7 @@ module.exports = function(grunt) {
             pages: {
                 options: {
                     remote: 'https://github.com/libertarismus/libertarismus.github.io', // change that
-                    branch: 'gh-pages' // adjust here
+                    branch: 'master' // adjust here
                 }
             }
         },
