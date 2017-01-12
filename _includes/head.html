@@ -6,3 +6,15 @@
 <link rel="stylesheet" href="{{ site.baseurl | replace: '//', '/' }}/css/main.css">
 <!--<link rel="stylesheet" id="switch_style" href="{{ site.baseurl | replace: '//', '/' }}/css/grid.css">-->
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl | prepend: site.url | replace: '//', '/' }}/feed.xml">
+<link rel="manifest" href="/manifest.json">
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "09c43afc-d4e6-4f22-9064-fde5f99259de",
+      autoRegister: false,
+      notifyButton: {
+        enable: true /* Set to false to hide */
+      }
+    }]);
+  </script>
