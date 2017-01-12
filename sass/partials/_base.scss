@@ -96,8 +96,12 @@ $lightbox_container_background: $black;
     position: absolute;
 }
 
-%center{
+@mixin center{
     display: block;
     position: relative;
     margin: 0px auto;
+}
+
+%center{
+@include center;
 }
