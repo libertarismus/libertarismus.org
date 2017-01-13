@@ -60,8 +60,8 @@ module.exports = function(grunt) {
             },
             pages: {
                 options: {
-                    remote: 'https://github.com/libertarismus/libertarismus.github.io', // change that
-                    branch: 'master' // adjust here
+                    remote: 'https://github.com/libertarismus/libertarismus.org', // change that
+                    branch: 'gh-pages' // adjust here
                 }
             }
         },
