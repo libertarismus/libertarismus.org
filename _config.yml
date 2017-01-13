@@ -1,7 +1,7 @@
 name: Libertarismus
 description: Philosophie der Freiheit
 url: http://www.libertarismus.org #place url
-gems: [jekyll-paginate]
+gems: [jekyll-paginate,jekyll-sitemap]
 baseurl: #place folder name if site is served in subfolder
 permalink: /:title/
 paginate: 8
@@ -12,14 +12,13 @@ author_dir: /author
 author_title_prefix: 'Posted by '
 media_folder: /img
 author_default_avatar: /profile-pic.jpg
-tumblr: "#"
-pinterest: "#"
-instagram: "#"
+#pinterest: ""
+#instagram: ""
 twitter: "https://twitter.com/libertarismus_"
 facebook: "https://www.facebook.com/libertarismus.org"
-youtube: "#"
-vimeo: "#"
-soundcloud: "#"
+#youtube: ""
+#vimeo: ""
+#soundcloud: ""
 
 encoding: utf-8
 defaults:
