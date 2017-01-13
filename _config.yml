@@ -1,6 +1,7 @@
 name: Libertarismus
 description: Philosophie der Freiheit
 url: https://www.libertarismus.org #place url
+production_url: https://www.libertarismus.org
 gems: [jekyll-paginate,jekyll-sitemap,jekyll-seo-tag]
 baseurl: #place folder name if site is served in subfolder
 permalink: /:title/
